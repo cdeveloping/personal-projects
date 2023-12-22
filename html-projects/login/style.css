@@ -47,3 +47,24 @@ body {
     color: #fff;
     padding: 20px 40px 20px 20px;
 }
+
+.contenedor input::placeholder{
+    color: #fff;
+}
+
+.fondo .recordar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 15px 0 15px;
+}
+
+.recordar label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.recordar a{
+    color: #fff;
+    text-decoration: none;
+}
