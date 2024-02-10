@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constantes en Js</title>
+</head>
+<body>
+    <h1>Constantes en Js</h1>
+    <hr>
+    <br>
+    <script>
+        document.write('Vamos a declarar una variable como let así se podrá modificar');
+        document.write('<br>');
+        let precio = 100;
+        document.write('El valor de precio es: ' + precio); // En este caso el valor de precio se podría cambiar.
+        document.write('<br>');
+        precio = 200;
+        document.write('El valor de precio es: ' + precio);
+        document.write('<br>');
+        document.write('<hr>');
+        document.write('<br>');
+        document.write('Ahora vamos a declarar una segunda variable como const');
+        const precio2 = 300;
+        document.write('<br>');
+        document.write(precio2);
+        document.write('<br>');
+        document.write("El valor de precio2 es fijo y no se puede cambiar si revisamos el código no nos deja cambiarlo");
+        document.write('<br>');
+        precio2 = 500;
+        document.write(precio2); //no arroja error pero no se va a ejecutar
+
+
+
+
+    </script>
+    
+</body>
+</html>

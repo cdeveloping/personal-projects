@@ -57,7 +57,7 @@ telefono = prompt('Introduzca su teléfono...');
 mail = prompt('Introduzca su email');
 direccion = prompt('Introduzca su dirección');
 
-document.write("Vamos a mostrar por pantalla los datos que hemos actualizado vía pantalla: ");
+document.write("Vamos a mostrar por pantalla los datos que hemos actualizado vía pantalla: Carlo");
 document.write('<br>');
 document.write("El nombre del usuario es: " + nombre);
 document.write('<br>');
