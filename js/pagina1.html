@@ -8,11 +8,49 @@
 <body>
     <script>
         //Colocar un mensaje en la página através de Js.
-        document.write("Esto es código interno");
+      //  document.write("Esto es código interno");
         
-        
+      let nombre ="Carlos"; //String
+      let edad = "45"; //integer
+      let precio = 10.55; //double o float
+      let esverdadero = true; // Boolean
+      let esFalso = false; // Boolean   
+      let esNulo = null; //null
+
+
+      document.write(nombre); 
+      document.write('<br>');
+      document.write(edad); 
+      document.write('<br>');
+      document.write(precio);
+      document.write('<br>');
+      document.write(esverdadero);
+      document.write('<br>');
+      document.write(esFalso);
+      document.write('<br>');
+      document.write(esNulo);
+      document.write('<br>');
+
+      /**
+       * La variables son "objects" por lo que pueden contener propiedades y métodos. 
+       */
+
+       let persona = {nombre: 'Carlitos', edad : 4};
+       document.write(persona.nombre);
+       document.write('<br>');
+        //Deberemos elegir que dato quetemos visualizar.
+
+       /*
+        Las variables en Js no están fuertemente tipadas, por lo que podemos cambiar el tipo de 
+        variable cuando lo necesitemos.
+       */
+      nombre = null;
+      document.write("hemos cambiado el valor de nombre a " + nombre);
+
     </script>
     <br>
-    <script src="./archivo.js"></script>
+    <script>
+
+    </script>
 </body>
 </html>

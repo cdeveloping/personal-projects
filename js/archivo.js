@@ -14,6 +14,7 @@ nombre = "Carlos";
 
 document.write(nombre);*/
 
+
 let _nombre = "Carlos 2";
 document.write(_nombre);
 
