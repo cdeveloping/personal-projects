@@ -44,6 +44,6 @@ document.writeln('<hr>')
 document.write('Vamos a reducir en 1 el valor de a con -=')
 document.write('<br>');
 a-=1;
-document.write('El valor de a en este punto es: ' + a);
+document.write('El valor de a en este punto es: ' + a);1
 
 
