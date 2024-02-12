@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadenas de texto en Js</title>
+</head>
+<body>
+    <h1>Cadenas de texto en Js</h1>
+    <hr><br>
+
+    <script>
+        let text1 = "JavaScript";  //Podemos usar comillas dobles o simpres
+        let text2 = 'JavaScript';
+        document.write(text1);
+        document.write('<br>');
+        document.write(text2);
+        document.write('<br>');
+
+        let text3 = 'Esto es una cadena muy larga ' +
+        'que necesita que lo escribamos en varias ' +
+        'lineas';
+        document.write(text3);
+
+        document.write('<br>');
+        let text4 = 'Esto es otro texto largo que necesita varios \
+        saltos de line, para que esto no cause un error vamos colocando \
+        slash'
+        document.write(text4);
+        document.write('<br>');
+    </script>
+
+    <hr>
+    <br>
+    <h2><u>Cadenas de texto cargadas desde archivo Js externo</u></h2>
+    <script src="./Js/cadenas_texto.js"></script>
+    <p>Si usamos comillas simples para encerrar nuestro string, no podremos usar estas mismas para entrecomillar una 
+        parte del texto, ya que esto nos dará un error si hemos usado las comillas simples, deberemos usar comillas dobles
+        para entrecomillar el texto que queramos, por el contario si hemos usado comillas dobles para encerrar nuestro string, 
+        deberemos usar comillas simples para entrecomillar el trozo de texto que queramos resaltar.
+    </p>
+</body>
+</html>
