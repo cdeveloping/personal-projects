@@ -1,0 +1,72 @@
+/**
+ * Name: Menú Hamburguesa
+ * Description: Como diseñar un menu hamburguesa con html, css y Js.
+ * 
+ * Author: Carlos Pascual
+ * mail: cguillermodev@gmail.com
+ * Date: 13/02/2024
+ * 
+ * Last update: -a
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo{
+    max-width: 5 rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: #ececec;
+}
+
+.list-navegacion{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.list-navegacion{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+.open-menu{
+    display: none;
+}
+
+@media  screen and (max-width: 650px) {
+  /*.open-menu{
+        display: block;
+    }
+
+    .navegacion{
+        display: none;
+    }*/
+    .navegacion{
+        position:absolute;
+        top: 0;
+        right: 0;
+        background-color: #ececec;
+        padding: 3rem;
+        bottom: 0 ;
+    }
+    .list-navegacion{
+        flex-direction: column;
+        align-items: end;
+    }
+}
+
+.logo{
+    max-width: 5rem;
+}
+.list-navegacion li a {
+    color: #1c1c1c;
+    text-decoration-style: none;
+}
