@@ -18,12 +18,12 @@ document.write("Cantidad de letras: ", palabra.length);
 document.write("<br>");
 document.write("<hr>");
 
-//Ver caractéres especificos.
+//Ver caracteres especificos.
 document.write('Las primeras 4 letras de mi variable son: ', palabra.slice(0,4));
 document.write("<br>");
 document.write("<hr>");
 
-//Más caractéres especificos de texto.
+//Más caracteres especificos de texto.
 document.write('Primeras cuatro letras: ', palabra.substring(0,4));
 document.write("<br>");
 document.write("<hr>");
@@ -41,7 +41,7 @@ document.write('El valor de saludo es ahora: ', saludo);
 document.write("<br>");
 document.write("<hr>");
 
-//Ponwe en mayúsculas
+//Poner en mayúsculas
 document.write('Poner todo en mayúsculas: ', palabra.toUpperCase());
 document.write("<br>");
 document.write("<hr>");
