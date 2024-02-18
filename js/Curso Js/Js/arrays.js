@@ -32,17 +32,10 @@ document.write('Ahora es un string: ', numero.toString());
 document.write('<br>');
 document.write('<hr>');
 
-//Unir varios tipos de strings
-let abecedario = [a, b, c, d, e];
-document.write("El valor del array abecedario es:", abecedario);
-document.write('<br>');
-let numeracion = [1, 2, 3, 4, 5];
-document.write = ('El valor del array numeración es: ', numeracion);
-document.write('<br>');
-let concatenados = abecedario.concat(numeracion());
-document.write(concatenados);
-document.write('<br>');
-document.write('<hr>');
+
+
+document.write(numero.reverse());
+
 
 
 
