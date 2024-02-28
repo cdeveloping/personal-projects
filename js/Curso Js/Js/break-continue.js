@@ -9,3 +9,13 @@
  * last version: 1.0
  */
 
+let palabra = 'JavaScript';
+let resultado ='';
+for(let i in palabra){
+    if(palabra[i] == 'a'){
+        continue;
+    }else {
+        resultado += palabra[f];
+    }
+}
+document.write(resultado);
