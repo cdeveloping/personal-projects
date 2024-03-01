@@ -33,8 +33,9 @@ document.write('<br>');
 document.write('<hr>');
 
 
-
+//Ordenar de manera inversa de mayor a menor.
 document.write(numero.reverse());
+
 
 
 

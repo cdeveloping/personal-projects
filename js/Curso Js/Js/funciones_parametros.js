@@ -26,4 +26,4 @@ function suma2(valor3, valor4){
     let resultado2 = valor3 + valor4;
     alert(resultado2);
 }
-suma2();
+suma2(); //nos devuele la suma de los valores que ha introducido el usuario
