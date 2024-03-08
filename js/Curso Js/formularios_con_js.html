@@ -17,7 +17,7 @@
         <input type="button" value="Decrementar" onclick="decrementar()">
         <br>
         <br>
-        <input type="button" value="Incrementar personalizado" onclick="aumentarvariable">
+        <input type="button" value="Incrementar personalizado" onclick="aumentarvariable()">
     </form>
     <script>
         let contador = 0;
@@ -32,8 +32,8 @@
         }
 
         function aumentarvariable(){
-            let variable = prompt(parseInt("Introduce el valor que quieres añdir: "));
-            contador = variable + contador;
+            let variable = prompt("Introduce el valor que quieres añdir: ");
+            contador = parseInt(variable) + contador;
             alert('El valor es ahora: ' +contador);
         }
     </script>
